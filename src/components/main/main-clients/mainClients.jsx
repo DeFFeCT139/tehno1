@@ -27,9 +27,6 @@ function MainClients() {
           disableOnInteraction: false,
           pauseOnMouseEnter: true,
         }}
-        
-        onSlideChange={() => console.log('slide change')}
-        onSwiper={(swiper) => console.log(swiper)}
       >
         <SwiperSlide>
           <div className="logo-clients"></div>

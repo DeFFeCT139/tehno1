@@ -89,6 +89,7 @@ body::-webkit-scrollbar-thumb {
 .main-title{
     font-weight: 900;
     font-size: 122px;
+    padding-top: 30px;
     line-height: 124px;
     letter-spacing: 0.03em;
 }
@@ -267,6 +268,64 @@ body::-webkit-scrollbar-thumb {
 .swiper-slide{
     width: 400px !important;
 }
+.main-skills{
+    padding: 110px 0px 0px 0px;
+    background: #171717;
+    overflow: hidden;
+}
+.main-skills-one-title{
+    font-weight: 800;
+    font-size: 22px;
+    line-height: 47px;
+    letter-spacing: 0.505em;
+    text-transform: uppercase;
+    max-width: 403px;
+}
+.main-skills-one{
+    height: 200px;
+    position: relative;
+    width: 100%;
+}
+.main-skills-two{
+    background: #171717;
+    padding: 80px 0px;
+    position: relative;
+}
+.text-podlo{
+    font-weight: 900;
+    font-size: 255.997px;
+    line-height: 262px;
+    letter-spacing: -0.02em;
+    text-transform: uppercase;
+    position: absolute;
+    z-index: 0;
+}
+.main-skills-one-text{
+    bottom: -50%;
+    left: 45%;
+    color: #978989;
+}
+.main-skills-two-text{
+    top: 0px;
+    right: 60%;
+    color: #2E8691;
+}
+.main-skills-three{
+    position: relative;
+    height: 200px;
+    padding: 30px 0px;
+}
+.main-skills-three-text{
+    color: #978989;
+    left: 20%;
+}
+.main-skills-two-title{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 28px;
+    max-width: 686px;
+    margin-left: auto;
+}
 .footer{
     padding: 64px 80px;
     background: #E5E5E5;
@@ -293,4 +352,341 @@ body::-webkit-scrollbar-thumb {
     font-size: 14px;
     line-height: 20px;
     color: #A3A3A3;
+}
+.header-right-open-cloused{
+    display: none;
+}
+
+@media (max-width: 1485px) {
+    .text-tehnosoft{
+        font-size: 82px;
+        line-height: 84px;
+    }
+    .header-right-navbar{
+        padding: 10px;
+    }
+    .buttom{
+        padding: 10px;
+    }
+    .main-title{
+        font-size: 92px;
+        line-height: 94px;
+        max-width: 800px;
+    }
+    .conteiner{
+        max-width: 1280px;
+    }
+    .main-contact-block-right > iframe {
+        width: 480px;
+        height: 420px;
+    }
+    .main-contact-block-desc{
+        margin-bottom: 30px;
+    }
+    .main-contact-block-title{
+        margin-bottom: 30px;
+    }
+    .title-block{
+        margin-bottom: 30px;
+    }
+    .swiper-slide{
+        width: 320px !important;
+    }
+    .main-contact-block{
+        padding: 40px ;
+    }
+    .logo-clients{
+        width: 320px;
+        height: 320px;
+    }
+    .main-service-item{
+        width: 300px;
+        height: 450px;
+    }
+    .main-service-item-bg{
+        width: 160px;
+        height: 425px;
+    }
+    .main-service-item-img-block{
+        width: 256px;
+        height: 256px;
+    }
+    .main-service-item-img-block > img{
+        width: 100%;
+    }
+    .main-service-item-title{
+        font-size: 38px;
+        line-height: 40px;
+    }
+}
+@media (max-width: 1280px) {
+    .main-contact-block{
+        padding: 40px 0px;
+    }
+    .main-content-info{
+        margin-top: 150px;
+    }
+    .main-contact-block-right{
+        margin-left: 15px;
+    }
+    .main-skills-two-title{
+        width: 450px;
+    }
+}
+@media (max-width: 996px) {
+    .main-contact-block-inner{
+        display: block;
+    }
+    .main-contact-block-right > iframe{
+        width: 100%;
+    }
+    .main-contact-block-right{
+        margin-left: 0px;
+        margin-top: 40px;
+    }
+    .main-contact-block-left-inner{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+        align-items: start;
+    }
+    .main-contact-block-left{
+        width: 100%;
+        max-width: none;
+    }
+    .main-contact-left-inner-block{
+        max-width: 545px;
+    }
+    .main-service-items{
+        flex-wrap: wrap;
+        column-gap: 30px;
+        row-gap: 40px;
+        justify-content: space-around;
+    }
+    .main-title{
+        font-size: 60px;
+        line-height: 63px;
+    }
+    .buttom{
+        min-width: 150px;
+    }
+    .main-contact-block-left-inner{
+        column-gap: 15px;
+    }
+    .parallax-sloy3{
+        height: 100%;
+        width: auto;
+    }
+    .text-tehnosoft > span{
+        margin-left: 10%;
+    }
+    .Parallax{
+        width: 100%;
+        height: 100vh;
+        overflow: hidden;
+    }
+    .parallax-sloy1{
+        width: 120%;
+        right: 0;
+    }
+    .parallax-sloy2{
+        width: 120%;
+        right: 0;
+    }
+    .header-right{
+        display: block;
+        background: #171717;
+        border-radius: 10px;
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    .header-right-navbar{
+        display: block;
+    }
+    .header-right-navbar > a{
+        display: block;
+        margin: 10px;
+        text-align: center;
+    }
+    .header-inner{
+        align-items: start;
+    }
+    .header-right-open-cloused{
+        margin-top: 10px;
+        text-align: right;
+        padding: 0px 10px;
+        display: block;
+    }
+    .header-right-open-cloused > img{
+        width: 30px;
+    }
+    .header-right-navbar{
+        padding: 0px 10px 10px 10px;
+    }
+    .header-right{
+        overflow: hidden;
+        width: 50px;
+        transition: 200ms;
+        height: 50px;
+    }
+    .header-right-active{
+        transition: 200ms;
+        width: 130px;
+        height: 240px;
+    }
+    .header-right-active > .header-right-open-cloused > .header-right-open-cloused-menu{
+        display: none;
+    }
+    .header-right-active > .header-right-open-cloused > .header-right-open-cloused-clou{
+        display: block;
+        margin-left: auto;
+    }
+    .header-right-open-cloused-clou{
+        display: none;
+    }
+    .header-inner{
+        padding: 18px;
+    }
+    .main-skills-one-text{
+        left: 50%;
+    }
+    .main-skills-two-text{
+        right: 80%;
+    }
+}
+@media (max-width: 750px) {
+    .main-skills-one-text{
+        left: 75%;
+    }
+    .parallax-sloy1{
+        width: 150%;
+        right: 0;
+    }
+    .parallax-sloy2{
+        width: 150%;
+        right: 0;
+    }
+    .footer{
+        padding: 40px;
+    }
+}
+@media (max-width: 640px) {
+    .main-skills-one-title{
+        font-size: 18px;
+        line-height: 30px;
+    }
+    .main-skills-two{
+        padding: 40px 0px;
+    }
+    .main-skills-one{
+        height: 150px;
+    }
+    .main-skills-one-text{
+        bottom: -70%;
+    }
+    .text-podlo{
+        font-size: 120px;
+    }
+    .main-skills-three{
+        height: 50px;
+        padding: 10px 0px;
+    }
+    .main-skills-three-text{
+        bottom: -250%;
+    }
+    .main-skills-two-title{
+        font-size: 16px;
+        line-height: 20px;
+        max-width: 350px;
+    }
+    .header-left{
+        width: 150px;
+    }
+    .header-left > img {
+        width: 100%;
+    }
+    .main-title{
+        font-size: 34px;
+        line-height: 40px;
+    }
+    .text-tehnosoft{
+        font-size: 45px;
+        line-height: 48px;
+    }
+    .footer-links{
+        flex-direction: column;
+        align-items: center;
+        row-gap: 10px;
+    }
+    .footer-allrigts{
+        text-align: center;
+    }
+    .main-contact-block-left-inner{
+        display: block;
+    }
+    .buttom{
+        width: 100%;
+    }
+    .main-content-info-title{
+        font-size: 28px;
+        line-height: 30px;
+        margin-bottom: 20px;
+    }
+    .main-content-info-desc{
+        font-size: 16px;
+        margin-bottom: 20px;
+        line-height: 20px;
+    }
+    .main-button-croll > span{
+        font-size: 16px;
+    }
+    .main-button-croll > img{
+        width: 15px;
+    }
+    .main-contact-block-title{
+        font-size: 28px;
+        line-height: 30px;
+        margin-bottom: 20px;
+    }
+    .main-contact-block-desc{
+        font-size: 16px;
+        margin-bottom: 20px;
+        line-height: 20px;
+    }
+    .main-contact-block-right > iframe{
+        height: 200px;
+    }
+    .logo-clients{
+        width: 200px;
+        height: 200px;
+    }
+    .swiper-slide{
+        width: 200px !important;
+    }
+    .main-clients{
+        padding: 0px 0px 100px 0px ;
+    }
+    .buttom{
+        min-width: 100px;
+    }
+    .parallax-sloy1{
+        width: 250%;
+        right: -15%;
+    }
+    .parallax-sloy2{
+        width: 250%;
+        right: -15%;
+    }
+    .text-tehnosoft > span{
+        margin-left: 0;
+        margin: auto;
+    }
+    .main-inner{
+        background: linear-gradient(to right, #000000 59%, #257680 41%);
+    }
+}
+@media (max-width: 464px) {
+    .main-skills-two-title{
+        margin-right: -20px;
+        max-width: 270px;
+    }
 }
