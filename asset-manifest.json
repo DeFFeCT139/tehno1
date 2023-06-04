@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/tehno1/static/css/main.f18ab31a.css",
+    "main.js": "/tehno1/static/js/main.96f723c9.js",
+    "static/js/787.5acb9b75.chunk.js": "/tehno1/static/js/787.5acb9b75.chunk.js",
+    "static/media/Logo.svg": "/tehno1/static/media/Logo.cfe0638d003f12a7f4119e02d6b0bd5f.svg",
+    "static/media/image 12.png": "/tehno1/static/media/image 12.1fab6e75c87e160d328d.png",
+    "static/media/image 1.jpg": "/tehno1/static/media/image 1.a569f412483da480e725.jpg",
+    "static/media/Rectangle.svg": "/tehno1/static/media/Rectangle.5ef698a6dc97c8d7332338f95acbac9f.svg",
+    "static/media/image 1.png": "/tehno1/static/media/image 1.24b636a8fb079fad82e9.png",
+    "index.html": "/tehno1/index.html",
+    "static/media/Icon.svg": "/tehno1/static/media/Icon.3763ae7e6f9c8492e6e886e233f98abd.svg",
+    "main.f18ab31a.css.map": "/tehno1/static/css/main.f18ab31a.css.map",
+    "main.96f723c9.js.map": "/tehno1/static/js/main.96f723c9.js.map",
+    "787.5acb9b75.chunk.js.map": "/tehno1/static/js/787.5acb9b75.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.f18ab31a.css",
+    "static/js/main.96f723c9.js"
+  ]
+}
