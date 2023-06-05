@@ -21,9 +21,26 @@ function MainParalx() {
       <div className="Parallax"> 
         <img className="parallax-sloy3" src={sloy3} alt="" />
         <div className="text-tehnosoft"><span>MTK ТехноСофт</span></div>
-        <img className="rellax parallax-sloy2" data-rellax-speed="3" src={sloy2} alt="" />
-        <div className="rellax pdlo-parallax-bg" data-rellax-speed="20"></div>
-        <div className="rellax parallax-sloy1" data-rellax-speed="20"></div>
+        <img 
+          className="rellax parallax-sloy2"
+          src={sloy2} 
+          alt="" 
+          data-rellax-mobile-speed="1"
+          data-rellax-tablet-speed="3"
+          data-rellax-desktop-speed="3"
+        />
+        <div 
+          className="rellax pdlo-parallax-bg" 
+          data-rellax-mobile-speed="10"
+          data-rellax-tablet-speed="15"
+          data-rellax-desktop-speed="15"
+        ></div>
+        <div 
+          className="rellax parallax-sloy1" 
+          data-rellax-mobile-speed="10"
+          data-rellax-tablet-speed="15"
+          data-rellax-desktop-speed="15"
+        ></div>
       </div>
     );
   } 
