@@ -37,6 +37,7 @@ function Header() {
                     <a href="#About" className="header-right-nav-link">About</a>
                     <a href="#Skills" className="header-right-nav-link">Skills</a>
                     <a href="#Services" className="header-right-nav-link">Services</a>
+                    <a href="#Team" className="header-right-nav-link">Team</a>
                     <a href="#Contact" className="header-right-nav-link">Contact</a>
                     <a href="#Clients" className="header-right-nav-link">Clients</a>
                 </div>

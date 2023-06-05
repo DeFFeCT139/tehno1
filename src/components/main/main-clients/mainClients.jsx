@@ -28,40 +28,40 @@ function MainClients() {
           pauseOnMouseEnter: true,
         }}
       >
-        <SwiperSlide>
+        <SwiperSlide className="slider-client">
           <div className="logo-clients"></div>
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide className="slider-client">
           <div className="logo-clients"></div>
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide className="slider-client">
           <div className="logo-clients"></div>
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide className="slider-client">
           <div className="logo-clients"></div>
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide className="slider-client">
           <div className="logo-clients"></div>
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide className="slider-client">
           <div className="logo-clients"></div>
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide className="slider-client">
           <div className="logo-clients"></div>
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide className="slider-client">
           <div className="logo-clients"></div>
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide className="slider-client">
           <div className="logo-clients"></div>
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide className="slider-client">
           <div className="logo-clients"></div>
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide className="slider-client">
           <div className="logo-clients"></div>
         </SwiperSlide>
-        <SwiperSlide>
+        <SwiperSlide className="slider-client">
           <div className="logo-clients"></div>
         </SwiperSlide>
       </Swiper>

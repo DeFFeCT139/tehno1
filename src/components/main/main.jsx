@@ -4,6 +4,7 @@ import MainContact from "./main-contact/mainContact";
 import MainParalx from "./main-parallax/mainParalax";
 import MainService from "./main-service/mainService";
 import MainSkills from "./main-skills/mainSkills";
+import MainTeam from "./mait-team/mainTeam";
 
 function Main() {
     return (
@@ -13,6 +14,7 @@ function Main() {
           <MainAbout/>
           <MainSkills/>
           <MainService/>
+          <MainTeam/>
           <MainContact/>
           <MainClients/>
         </div>

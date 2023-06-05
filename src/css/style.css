@@ -9,6 +9,7 @@
 }
 html {
     scroll-behavior: smooth;
+    overflow-x: hidden;
 }
 :root{
     --color: #2E8691;
@@ -265,7 +266,7 @@ body::-webkit-scrollbar-thumb {
     background: #262626;
     border-radius: 10px;
 }
-.swiper-slide{
+.slider-client{
     width: 400px !important;
 }
 .main-skills{
@@ -326,6 +327,103 @@ body::-webkit-scrollbar-thumb {
     max-width: 686px;
     margin-left: auto;
 }
+.main-team{
+    padding: 100px 0px 40px 0px;
+    background-color: #171717;
+}
+.main-team-slidere-item{
+    width: 400px;
+    position: relative;
+    height: 600px;
+}
+.main-team-slidere-item-bg{
+    background-color: #000;
+    width: 250px;
+    height: 525px;
+    position: absolute;
+    top: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    overflow: hidden;
+    right: 0;
+}
+.main-team-slidere-item-bg > span{
+    font-size: 220px;
+    font-weight: 900;
+    transform: rotate(-90deg);
+    display: block;
+    margin-left: 80px;
+    margin-bottom: -150px;
+    color: #257680;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Old versions of Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; 
+}
+.main-team-slidere-item-image{
+    width: 356px;
+    height: 356px;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    border-radius: 20px;
+    box-shadow: 5px 13px 20px 10px rgba(0, 0, 0, 0.25);
+    top: 20px;
+}
+.slider-navigate{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.swiper-pagination-bullet{
+    width: 25px !important;
+    background-color: var(--color) !important;
+    border-radius: 10px !important;
+}
+.slider-navigete-left > img{
+    width: 30px;
+    cursor: pointer;
+    transform: scale(-1, -1);
+    display: block;
+}
+.slider-navigete-righst > img{
+    width: 30px;
+    display: block;
+    cursor: pointer;
+}
+.swiper-pagination-bullet-active{
+    background-color: #ffffff !important;
+}
+.main-team-slidere-item-info{
+    width: 356px;
+    position: absolute;
+    bottom: 120px;
+    text-align: right;
+    padding-right: 20px;
+}
+.main-team-slidere-item-info-name{
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.main-team-slidere-item-info-desc{
+    font-size: 20px;
+}
+.main-team-slider{
+    padding-top: 30px;
+}
+.slider{
+    overflow: inherit !important;
+}
+.team-slide{
+    width: 400px !important;
+}
+.slider-navigate{
+    margin-top: 30px;
+}
 .footer{
     padding: 64px 80px;
     background: #E5E5E5;
@@ -356,8 +454,39 @@ body::-webkit-scrollbar-thumb {
 .header-right-open-cloused{
     display: none;
 }
+.slider-navigate{
+    padding-top: 30px;
+}
 
 @media (max-width: 1485px) {
+    .main-team-slidere-item{
+        width: 300px;
+        height: 400px;
+    }
+    .team-slide{
+        width: 300px !important;
+    }
+    .main-team-slidere-item-bg{
+        width: 160px;
+        height: 425px;
+    }
+    .main-team-slidere-item-bg > span{
+        font-size: 200px;
+    }
+    .main-team-slidere-item-image{
+        width: 256px;
+        height: 256px;
+    }
+    .main-team-slidere-item-info{
+        bottom: 30px;
+        width: 256px;
+    }
+    .main-team-slidere-item-info-name{
+        font-size: 20px;
+    }
+    .main-team-slidere-item-info-desc{
+        font-size: 16px;
+    }
     .text-tehnosoft{
         font-size: 82px;
         line-height: 84px;
@@ -389,7 +518,7 @@ body::-webkit-scrollbar-thumb {
     .title-block{
         margin-bottom: 30px;
     }
-    .swiper-slide{
+    .slider-client{
         width: 320px !important;
     }
     .main-contact-block{
@@ -431,6 +560,9 @@ body::-webkit-scrollbar-thumb {
     }
     .main-skills-two-title{
         width: 450px;
+    }
+    .slider {
+        overflow: hidden !important;
     }
 }
 @media (max-width: 996px) {
@@ -531,7 +663,7 @@ body::-webkit-scrollbar-thumb {
     .header-right-active{
         transition: 200ms;
         width: 130px;
-        height: 240px;
+        height: 310px;
     }
     .header-right-active > .header-right-open-cloused > .header-right-open-cloused-menu{
         display: none;
@@ -659,7 +791,7 @@ body::-webkit-scrollbar-thumb {
         width: 200px;
         height: 200px;
     }
-    .swiper-slide{
+    .slider-client{
         width: 200px !important;
     }
     .main-clients{
