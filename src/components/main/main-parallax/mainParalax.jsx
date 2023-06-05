@@ -12,7 +12,9 @@ function MainParalx() {
    
 
   const setRellax = () => {
-      new Rellax('.rellax') 
+      new Rellax('.rellax',{
+        breakpoints:[320, 640, 996] 
+      }) 
   }
   
     return ( 
