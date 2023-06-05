@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/tehno1/static/css/main.f4bb7600.css",
-    "main.js": "/tehno1/static/js/main.3e5c3bec.js",
+    "main.css": "/tehno1/static/css/main.73f71376.css",
+    "main.js": "/tehno1/static/js/main.3d476dcd.js",
     "static/js/787.5acb9b75.chunk.js": "/tehno1/static/js/787.5acb9b75.chunk.js",
     "static/media/dAVC_KSOoVw.jpg": "/tehno1/static/media/dAVC_KSOoVw.a0c8d6c2edacee3943be.jpg",
     "static/media/Logo.svg": "/tehno1/static/media/Logo.cfe0638d003f12a7f4119e02d6b0bd5f.svg",
@@ -14,12 +14,12 @@
     "static/media/Icon.svg": "/tehno1/static/media/Icon.3763ae7e6f9c8492e6e886e233f98abd.svg",
     "static/media/close_FILL0_wght400_GRAD0_opsz48.svg": "/tehno1/static/media/close_FILL0_wght400_GRAD0_opsz48.e3fb2b471e597bb5aa48559cfda56e9a.svg",
     "static/media/menu_FILL0_wght400_GRAD0_opsz48.svg": "/tehno1/static/media/menu_FILL0_wght400_GRAD0_opsz48.38c5d99c6c4fb54e0594f59a1beb7f2c.svg",
-    "main.f4bb7600.css.map": "/tehno1/static/css/main.f4bb7600.css.map",
-    "main.3e5c3bec.js.map": "/tehno1/static/js/main.3e5c3bec.js.map",
+    "main.73f71376.css.map": "/tehno1/static/css/main.73f71376.css.map",
+    "main.3d476dcd.js.map": "/tehno1/static/js/main.3d476dcd.js.map",
     "787.5acb9b75.chunk.js.map": "/tehno1/static/js/787.5acb9b75.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f4bb7600.css",
-    "static/js/main.3e5c3bec.js"
+    "static/css/main.73f71376.css",
+    "static/js/main.3d476dcd.js"
   ]
 }
