@@ -34,14 +34,14 @@ function Header() {
                   <img onClick={() => headerActive(true)} src={menu} className="header-right-open-cloused-menu" alt="" />
                 </div>
                 <div className="header-right-navbar">
-                    <a href="#About" className="header-right-nav-link">About</a>
+                    <a href="#About" className="header-right-nav-link">О нас</a>
                     <a href="#Skills" className="header-right-nav-link">Skills</a>
-                    <a href="#Services" className="header-right-nav-link">Services</a>
-                    <a href="#Team" className="header-right-nav-link">Team</a>
-                    <a href="#Contact" className="header-right-nav-link">Contact</a>
-                    <a href="#Clients" className="header-right-nav-link">Clients</a>
+                    <a href="#Services" className="header-right-nav-link">Услуги</a>
+                    <a href="#Team" className="header-right-nav-link">Команда</a>
+                    <a href="#Contact" className="header-right-nav-link">Контакты</a>
+                    <a href="#Clients" className="header-right-nav-link">Клиенты</a>
                 </div>
-                <Buttom bacgr={'#2E8691'} textContent={'Contac Us'}/>
+                <Buttom bacgr={'#2E8691'} textContent={'Связаться'}/>
             </div>
         </div>
       </div>

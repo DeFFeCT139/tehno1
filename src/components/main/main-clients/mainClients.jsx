@@ -16,7 +16,7 @@ function MainClients() {
   return (
     <div id="Clients" className="main-clients">
       <div className="conteiner">
-        <TitleBlock text={'CLIENTS'} color={'#fff'}/>
+        <TitleBlock text={'КЛИЕНТЫ'} color={'#fff'}/>
       </div>
       <Swiper
         modules={[Autoplay]}

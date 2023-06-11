@@ -7,13 +7,13 @@ function MainService() {
     return (
       <div id='Services' className="main-service">
         <div className="conteiner">
-            <TitleBlock text={'SERVICES'} color={'#fff'}/>
+            <TitleBlock text={'УСЛУГИ'} color={'#fff'}/>
             <div className="main-service-items">
-                <MainServiceItem img={img}/>
-                <MainServiceItem img={img}/>
-                <MainServiceItem img={img}/>
+                <MainServiceItem title={'Парсинг'} img={img}/>
+                <MainServiceItem title={'Cайты'} img={img}/>
+                <MainServiceItem title={'Боты'} img={img}/>
             </div>
-            <Buttom textContent={'Call to action'} bacgr={'#171717'}/>
+            <Buttom textContent={'Связаться'} bacgr={'#171717'}/>
         </div>
       </div>
     );
