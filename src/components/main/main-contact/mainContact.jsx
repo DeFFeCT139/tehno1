@@ -28,7 +28,7 @@ function MainContact() {
                     </div>
                     <div className="main-contact-block-desc-item">
                       <img src='' alt="" />
-                      <span>GLEB.KAK2@YANDEX.RU</span>
+                      <span>tehnosoftpro@mail.ru</span>
                     </div>
                   </div>
                 </div>
