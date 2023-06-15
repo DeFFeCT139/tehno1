@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/tehno1/static/css/main.fb5efdf8.css",
-    "main.js": "/tehno1/static/js/main.a5a3780c.js",
+    "main.js": "/tehno1/static/js/main.ec9fea82.js",
     "static/js/787.5acb9b75.chunk.js": "/tehno1/static/js/787.5acb9b75.chunk.js",
     "static/media/Nikola.jpg": "/tehno1/static/media/Nikola.73dd124de81c41ff65f2.jpg",
     "static/media/Andre.jpg": "/tehno1/static/media/Andre.86168cae7b8a79b7b5ae.jpg",
@@ -26,11 +26,11 @@
     "static/media/close_FILL0_wght400_GRAD0_opsz48.svg": "/tehno1/static/media/close_FILL0_wght400_GRAD0_opsz48.e3fb2b471e597bb5aa48559cfda56e9a.svg",
     "static/media/menu_FILL0_wght400_GRAD0_opsz48.svg": "/tehno1/static/media/menu_FILL0_wght400_GRAD0_opsz48.38c5d99c6c4fb54e0594f59a1beb7f2c.svg",
     "main.fb5efdf8.css.map": "/tehno1/static/css/main.fb5efdf8.css.map",
-    "main.a5a3780c.js.map": "/tehno1/static/js/main.a5a3780c.js.map",
+    "main.ec9fea82.js.map": "/tehno1/static/js/main.ec9fea82.js.map",
     "787.5acb9b75.chunk.js.map": "/tehno1/static/js/787.5acb9b75.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.fb5efdf8.css",
-    "static/js/main.a5a3780c.js"
+    "static/js/main.ec9fea82.js"
   ]
 }
